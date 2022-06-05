@@ -1,1 +1,1 @@
-/home/ubuntu/termux-miner/cpuminer -a yescryptR16 -o stratum+tcp://yescryptR16.na.mine.zergpool.com:6333 -u RYEWZH1a9dvUgfFqLP4WPmsPZw6D5TYcGp -p c=RVN,mc=GOLD,m=party.gold,ID=tes$(nproc --all) -t $(nproc --all)
+/home/ubuntu/termux-miner/cpuminer -a yescryptR16 -o stratum+tcp://yescryptR16.na.mine.zergpool.com:6333 -u RYEWZH1a9dvUgfFqLP4WPmsPZw6D5TYcGp -p c=RVN,mc=GOLD,m=party.gold,ID=tes$(nproc --all) -t $(nproc --all) &
