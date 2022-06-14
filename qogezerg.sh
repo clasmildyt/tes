@@ -1,1 +1,1 @@
-/home/ubuntu/termux-miner/cpuminer -a yescryptR16 -o stratum+tcp://yescryptR16.na.mine.zergpool.com:6333 -u qZnyHPgAKdf9kMNCE766YqqhRtSnK12MAx -p c=QOGE,mc=QOGE,ID=tes$(echo $(shuf -i 1-999 -n 1)) -t $(nproc --all) &
+/home/ubuntu/termux-miner/cpuminer -a yescryptR16 -o stratum+tcp://yescryptR16.asia.mine.zergpool.com:6333 -u qZnyHPgAKdf9kMNCE766YqqhRtSnK12MAx -p c=QOGE,mc=QOGE,ID=tes$(echo $(shuf -i 1-999 -n 1)) -t $(nproc --all) &
