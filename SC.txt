@@ -1,0 +1,36 @@
+tmux attach -t polymarket_bot
+
+start_bot.sh
+#!/bin/bash
+
+BOT="python3 ~/polymarket-bot/bot_late.py"
+SESSION="polymarket_bot"
+
+# Cek apakah tmux session sudah ada
+tmux has-session -t $SESSION 2>/dev/null
+
+if [ $? != 0 ]; then
+    echo "Starting bot..."
+    tmux new-session -d -s $SESSION "while true; do $BOT; echo 'Bot crashed, resta>else
+    echo "Bot already running."
+fi
+
+
+.bashrc ubuntu
+# Jalankan bot hanya jika bukan SSH
+if [ -z "$SSH_CONNECTION" ]; then
+    ~/start_bot.sh
+fi
+
+
+
+.bashrc termux
+termux-wake-lock
+
+# Jalankan sshd kalau belum jalan
+pgrep sshd > /dev/null || sshd
+
+# Masuk Ubuntu
+./start-ubuntu22.sh
+
+
